@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a6c1ba-df39-40db-9988-f1a8ed802e8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vue-双向绑定的简单实现.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0/Object.defineProperty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0/最简单的双向绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/js/Observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/js/Watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/双向绑定html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/js/Compile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/js/Observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/js/Watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/js/Compile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/js/Observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/js/Watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v3/js/Compile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="220">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -56,8 +36,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v4/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v4/js/Compile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v4/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,8 +98,10 @@
         <option value="$PROJECT_DIR$/v2/js/Observer.js" />
         <option value="$PROJECT_DIR$/v2/index.html" />
         <option value="$PROJECT_DIR$/v3/js/index.js" />
-        <option value="$PROJECT_DIR$/v3/index.html" />
         <option value="$PROJECT_DIR$/v3/js/Compile.js" />
+        <option value="$PROJECT_DIR$/v3/index.html" />
+        <option value="$PROJECT_DIR$/v4/index.html" />
+        <option value="$PROJECT_DIR$/v4/js/Compile.js" />
       </list>
     </option>
   </component>
@@ -114,6 +123,17 @@
             <path>
               <item name="vue-双向绑定的简单实现" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-双向绑定的简单实现" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-双向绑定的简单实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-双向绑定的简单实现" type="462c0819:PsiDirectoryNode" />
+              <item name="v4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-双向绑定的简单实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-双向绑定的简单实现" type="462c0819:PsiDirectoryNode" />
+              <item name="v4" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,14 +157,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现" />
-      <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现\v2\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现\v0" />
       <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现\v1" />
       <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现" />
+      <recent name="D:\my-demo\vue -demo\vue-双向绑定的简单实现\v2\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,11 +179,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="最简单的双向绑定.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-双向绑定的简单实现/v0/最简单的双向绑定.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="双向绑定html.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-双向绑定的简单实现/v1/双向绑定html.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="双向绑定html.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-双向绑定的简单实现/v1/双向绑定html.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-双向绑定的简单实现/v4/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-双向绑定的简单实现/v2/index.html" useBuiltInWebServerPort="true">
@@ -177,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.Observer.js" />
         <item itemvalue="JavaScript Debug.双向绑定html.html" />
         <item itemvalue="Node.js.Object.defineProperty.js" />
-        <item itemvalue="JavaScript Debug.最简单的双向绑定.html" />
       </list>
     </recent_temporary>
   </component>
@@ -196,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560130439284</updated>
       <workItem from="1560130440661" duration="21761000" />
-      <workItem from="1560219483672" duration="3691000" />
+      <workItem from="1560219483672" duration="5985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25452000" />
+    <option name="totallyTimeSpent" value="27746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -314,17 +334,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v3/index.html">
+    <entry file="file://$PROJECT_DIR$/v3/js/Compile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v3/js/Compile.js">
+    <entry file="file://$PROJECT_DIR$/v3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="176">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v4/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v4/js/Compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟vue</title>
+</head>
+<style>
+    #app {
+        text-align: center;
+    }
+</style>
+<body>
+<div id="app">
+    <span v-text="name"></span>
+    <h2>{{ title }}</h2>
+    <label>
+        <input type="text" v-model="name">
+    </label>
+    <h1>{{ name }}</h1>
+    <button v-on:click="clickMe">click me!</button>
+</div>
+</body>
+<script src="js/Observer.js"></script>
+<script src="js/Watcher.js"></script>
+<script src="js/Compile.js"></script>
+<script src="js/index.js"></script>
+
+<script type="text/javascript">
+    new SelfVue({
+        el: '#app',
+        data: {
+            title: 'hello world',
+            name: 'can i use'
+        },
+        methods:{
+            clickMe:function() {
+                this.title="hello"
+            }
+        },
+        mounted:function () {
+            window.setTimeout(()=>{
+                this.title='你好'
+            },1000)
+        }
+    });
+</script>
+</html>
