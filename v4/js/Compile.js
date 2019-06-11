@@ -34,12 +34,10 @@ Compile.prototype = {
         [].slice.call(childNodes).forEach(function (node) {
             var reg = /\{\{\s*(.*?)\s*\}\}/;
             var text = node.textContent;
-
             if(self.isElementNode(node)){
                 self.compile(node);
             }else if (self.isTextNode(node) && reg.test(text)) {// 判断是否是符合这种形式{{}}的指令
                 self.compileText(node, reg.exec(text)[1])
-
             }
             if (node.childNodes && node.childNodes.length) {
                 self.compileElement(node); // 继续递归遍历子节点
