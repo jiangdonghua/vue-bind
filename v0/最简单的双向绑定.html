@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="text"></div>
+<label for="inp"></label><input type="text" id="inp">
+<script>
+    var text=document.querySelector("#text");
+    var inp=document.querySelector("#inp");
+    var obj={};
+    Object.defineProperty(obj,"value",{
+        get:function () {
+            return val;
+        },
+        set(v) { //当该属性被赋值的时候触发
+            inp.value=v;
+            text.innerHTML=v;
+        }
+    })
+
+    inp.addEventListener("input",function (e) {
+        // 给obj的value属性赋值，进而触发该属性的set方法
+        obj.value=e.target.value;
+    })
+    obj.value="123";//在给obj设置name属性的时候，触发了set这个方法
+</script>
+</body>
+</html>
